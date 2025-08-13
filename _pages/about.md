@@ -1,10 +1,9 @@
 ---
 layout: about
-title: about
+title: Woorim Shin
 permalink: /
 subtitle: Undergraduate Student at <a href='https://www.ewha.ac.kr/'>Ewha Womans University</a>
-nav: true
-nav_order: 1
+nav: false
 
 profile:
   align: right
