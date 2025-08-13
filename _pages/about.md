@@ -1,13 +1,13 @@
 ---
 layout: about
-title: Woorim Shin
+title: about
 permalink: /
 subtitle: Undergraduate Student at <a href='https://www.ewha.ac.kr/'>Ewha Womans University</a>
 nav: false
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>wrim0923@gmail.com</p>
