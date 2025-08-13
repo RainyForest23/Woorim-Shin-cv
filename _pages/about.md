@@ -13,22 +13,24 @@ profile:
     <p>010-2540-9018</p>
     <p>Seoul, South Korea</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
 I am Woorim Shin, an undergraduate student of Computer Science and Engineering at Ewha Womans University in Seoul, South Korea.
 
-I am passionate about software development, data science, and exploring new technologies. My academic journey focuses on building strong foundations in computer science principles while gaining practical experience through various projects.
+I specialize in **Natural Language Processing** and **Korean Language Technology**, with hands-on experience in fine-tuning large language models, building automated speech recognition systems, and developing data analysis pipelines. My research interests focus on applying AI technologies to educational domains, particularly in Korean language processing.
 
-Feel free to connect with me through my social media links below or reach out via email for any opportunities or collaborations.
+I have worked on various projects ranging from **Korean educational ASR systems** using fine-tuned Whisper models to **automated text analysis platforms** for educational content. I'm passionate about leveraging machine learning and data science to solve real-world problems in education and language technology.
+
+Feel free to connect with me for research collaborations, internship opportunities, or discussions about AI and NLP projects.

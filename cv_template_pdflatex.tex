@@ -1,0 +1,194 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- 기본 패키지 ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm, top=2cm, bottom=2.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{parskip}
+
+% ---------- 클래식 serif 폰트 ----------
+\usepackage{times}
+\renewcommand{\familydefault}{\rmdefault}
+
+% ---------- 미니멀 색상 ----------
+\definecolor{textblack}{RGB}{0, 0, 0}
+\definecolor{textgray}{RGB}{100, 100, 100}
+\definecolor{linkcolor}{RGB}{0, 0, 0}
+\definecolor{linecolor}{RGB}{150, 150, 150}
+
+% ---------- 페이지 설정 ----------
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+% ---------- 섹션 스타일 ----------
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{-0.7em}\textcolor{linecolor}{\hrule height 0.4pt}\vspace{0.5em}]
+
+% ---------- 커스텀 명령 ----------
+\newcommand{\name}[1]{
+  \begin{center}
+    {\huge\textcolor{textblack}{#1}}
+  \end{center}
+  \vspace{0.3em}
+}
+
+\newcommand{\subtitle}[1]{
+  \begin{center}
+    \textcolor{textgray}{\textbf{#1}}
+  \end{center}
+  \vspace{0.2em}
+}
+
+\newcommand{\contact}[4]{
+  \begin{center}
+    \textcolor{textgray}{#1} \quad \textbar \quad
+    \href{mailto:#2}{\textcolor{linkcolor}{#2}} \quad \textbar \quad
+    \href{#3}{\textcolor{linkcolor}{LinkedIn}} \quad \textbar \quad
+    \href{#4}{\textcolor{linkcolor}{GitHub}}
+  \end{center}
+  \vspace{1.5em}
+}
+
+\newcommand{\cventry}[4]{
+  \noindent
+  \begin{tabularx}{\textwidth}{X r}
+    \textbf{#1} & \textcolor{textgray}{\textit{#2}} \\
+    \textcolor{textgray}{#3} & \textcolor{textgray}{#4}
+  \end{tabularx}
+  \vspace{0.3em}
+}
+
+\newcommand{\projectentry}[4]{
+  \cventry{#1}{#2}{#3}{#4}
+  \vspace{0.3em}
+}
+
+% ---------- 문서 시작 ----------
+\begin{document}
+
+% ========== HEADER ==========
+\name{Woorim Shin}
+\subtitle{B.S STUDENT \quad \textbullet \quad EWHA WOMANS UNIVERSITY}
+\vspace{0.2em}
+\begin{center}
+\textcolor{textgray}{\textit{Department of Computer Science and Engineering, Seoul, Republic of Korea}}
+\end{center}
+\contact{010-2540-9018}{wrim0923@gmail.com}
+{https://linkedin.com/in/woorimshin}{https://github.com/RainyForest23}
+
+% ========== EDUCATION ==========
+\section{Education}
+
+\textbf{Ewha Womans University} \hfill \textcolor{textgray}{\textit{Seoul, South Korea}}\\
+\textcolor{textgray}{B.S in Computer Science and Engineering} \hfill \textcolor{textgray}{\textit{Mar.2020 - Current}}
+\begin{itemize}[leftmargin=1em, itemsep=0.1em, topsep=0.2em]
+  \item Overall GPA : 3.8/4.5
+  \item Relevant Coursework: Data Structures, Algorithms, Database Systems
+\end{itemize}
+
+\vspace{1em}
+
+% ========== PROJECTS ==========
+\section{Projects}
+
+\textbf{Korean Educational ASR System} \hfill \textcolor{textgray}{\textit{Jan, 2025}}\\
+\textcolor{textgray}{Speech recognition system fine-tuned for Korean educational content}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Fine-tuned OpenAI Whisper Large-v3 with LoRA for Korean lecture transcription
+  \item Implemented RAG pipeline with \textbf{275\% improvement} in segmentation precision
+  \item Built custom Korean tokenizer achieving \textbf{55.6\% efficiency improvement}
+  \item Technologies: PyTorch, Transformers, PEFT, DeepSpeed, Korean NLP
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{Educational Q\&A Analysis System} \hfill \textcolor{textgray}{\textit{Jan, 2025}}\\
+\textcolor{textgray}{Interactive question classification system with GPT-4 fine-tuning}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Developed 8-category question classification using fine-tuned GPT-4
+  \item Built real-time Streamlit dashboard for Korean text analysis
+  \item Implemented sentiment analysis and word frequency visualization
+  \item Technologies: OpenAI API, Streamlit, KoNLP, Plotly, Pandas
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{Student Sentiment \& Text Analysis Platform} \hfill \textcolor{textgray}{\textit{May, 2024}}\\
+\textcolor{textgray}{Korean sentiment analysis system for educational feedback}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Built comprehensive Korean text mining pipeline for student feedback analysis
+  \item Created word co-occurrence networks and interactive visualizations
+  \item Implemented automated categorization system for student concerns
+  \item Technologies: Python, KoNLPy, NetworkX, Matplotlib, Interactive HTML
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{Learning Principles Analysis System} \hfill \textcolor{textgray}{\textit{Apr, 2024}}\\
+\textcolor{textgray}{Automated data collection and analysis for educational research}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Developed automated screenshot and data collection system using Selenium
+  \item Built Streamlit web application for real-time educational data analysis
+  \item Integrated Google Sheets API for automated report generation
+  \item Technologies: Selenium WebDriver, Streamlit, Google Sheets API, OpenCV
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{Educational Forum Crawling System} \hfill \textcolor{textgray}{\textit{Sep, 2023 - Dec, 2023}}\\
+\textcolor{textgray}{Large-scale web scraping and Korean text mining system}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Built robust multi-platform web crawling system for educational forums
+  \item Implemented Korean morphological analysis and automated data processing
+  \item Created comprehensive text analysis toolkit with visualization
+  \item Technologies: Selenium, BeautifulSoup, KoNLPy, Pandas, Excel automation
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{TA Administration Automation} \hfill \textcolor{textgray}{\textit{Sep, 2023}}\\
+\textcolor{textgray}{Automated teaching assistant question management system}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Automated Q\&A data collection from educational platforms using web scraping
+  \item Integrated with Google Cloud Platform for data processing and storage
+  \item Built automated Excel report generation with error handling
+  \item Technologies: Selenium, Google Sheets API, GCP, Python automation
+\end{itemize}
+
+\vspace{0.8em}
+
+\textbf{Content Analysis \& Classification System} \hfill \textcolor{textgray}{\textit{Jul, 2024}}\\
+\textcolor{textgray}{Multi-subject educational content categorization system}
+\begin{itemize}[leftmargin=1em, itemsep=0.2em, topsep=0.2em]
+  \item Developed automated classification system for 10+ academic subjects
+  \item Built data processing pipeline for student review and feedback analysis
+  \item Created comprehensive analytics dashboard for educational insights
+  \item Technologies: Python, Pandas, Data classification, Educational analytics
+\end{itemize}
+
+% ========== TECHNICAL SKILLS ==========
+\section{Technical Skills}
+
+\textbf{Programming Languages}\\
+Python, Java, C++, JavaScript, TypeScript
+
+\vspace{0.5em}
+\textbf{Frameworks \& Technologies}\\
+PyTorch, TensorFlow, Streamlit, OpenAI API, Korean NLP
+
+\vspace{0.5em}
+\textbf{Specializations}\\
+Web Scraping, Data Analysis, Machine Learning, Cloud Computing
+
+\end{document}
