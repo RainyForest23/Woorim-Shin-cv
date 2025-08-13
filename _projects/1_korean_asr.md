@@ -2,7 +2,7 @@
 layout: page
 title: Korean Educational ASR System
 description: Advanced speech recognition system fine-tuned for Korean educational content using Whisper Large-v3 with LoRA
-img: assets/img/1.jpg
+img: #
 importance: 1
 category: ai
 related_publications: false

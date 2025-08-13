@@ -2,7 +2,7 @@
 layout: page
 title: Educational Q&A Analysis System
 description: Interactive question classification system with GPT-4 fine-tuning and real-time Korean text analysis
-img: assets/img/2.jpg
+img: #
 importance: 2
 category: ai
 related_publications: false

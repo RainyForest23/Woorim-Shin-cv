@@ -2,7 +2,7 @@
 layout: page
 title: Student Sentiment Analysis Platform
 description: Korean sentiment analysis system for educational feedback with network visualization
-img: assets/img/3.jpg
+img: #
 importance: 3
 category: data
 related_publications: false

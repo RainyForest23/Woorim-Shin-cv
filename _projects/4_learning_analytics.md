@@ -2,7 +2,7 @@
 layout: page
 title: Learning Analytics Automation
 description: Automated data collection and analysis system for educational research with Streamlit dashboard
-img: assets/img/4.jpg
+img: #
 importance: 4
 category: data
 related_publications: false

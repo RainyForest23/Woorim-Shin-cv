@@ -2,7 +2,7 @@
 layout: page
 title: Educational Forum Crawling System
 description: Large-scale web scraping and Korean text mining system for educational content analysis
-img: assets/img/5.jpg
+img: #
 importance: 5
 category: data
 related_publications: false
