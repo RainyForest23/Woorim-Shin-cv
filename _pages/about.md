@@ -3,6 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle: Undergraduate Student at <a href='https://www.ewha.ac.kr/'>Ewha Womans University</a>
+nav: true
+nav_order: 1
 
 profile:
   align: right
