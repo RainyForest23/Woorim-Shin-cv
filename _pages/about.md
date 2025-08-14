@@ -7,7 +7,7 @@ nav: false
 
 profile:
   align: right
-  image: profile.JPG
+  image: tokyo.jpeg # 나중에 이걸로 : profile.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>wrim0923@gmail.com</p>
