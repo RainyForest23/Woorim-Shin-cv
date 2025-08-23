@@ -2,14 +2,9 @@
   "basics": {
     "name": "Woorim Shin",
     "label": "Computer Science Student",
-    "image": "",
     "email": "wrim0923@gmail.com",
-    "phone": "010-2540-9018",
-    "url": "https://rainyforest23.github.io/Woorim-Shin-cv/",
-    "summary": "Undergraduate student specializing in AI, NLP, and Korean language technology with hands-on experience in machine learning and data science",
+    "summary": "Undergraduate student in Computer Science and Engineering with experience in AI, NLP, and system development",
     "location": {
-      "address": "",
-      "postalCode": "",
       "city": "Seoul",
       "countryCode": "KR",
       "region": "South Korea"
@@ -27,159 +22,121 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "SDIJ Forest Research Team",
-      "position": "Research Assistant",
-      "url": "",
-      "startDate": "2023-03-01",
-      "endDate": "Present",
-      "summary": "Developed Korean educational domain ASR system and data analysis platforms",
-      "highlights": [
-        "Built Korean educational ASR system using fine-tuned Whisper models",
-        "Created automated web scraping and text analysis pipelines",
-        "Developed comprehensive data analysis systems for educational content"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "Ewha Womans University",
-      "url": "https://www.ewha.ac.kr/",
+      "institution": "Ewha Womans University, Seoul, South Korea",
       "area": "Computer Science and Engineering",
-      "studyType": "Bachelor of Science",
-      "startDate": "2020-03-01",
+      "studyType": "Bachelor",
+      "startDate": "2023-03-01",
       "endDate": "Present",
-      "score": "3.8/4.5",
-      "courses": [
-        "Data Structures",
-        "Algorithms", 
-        "Database Systems",
-        "Machine Learning"
-      ]
+      "summary": "Undergraduate student in Computer Science and Engineering"
+    }
+  ],
+  "work": [
+    {
+      "name": "SDIJ Forest team",
+      "position": "Project Leader — Korean CSAT Private Education Service Planning & Development",
+      "startDate": "2023-04-01",
+      "endDate": "2025-05-31",
+      "summary": "Led planning and development for education service initiatives"
+    },
+    {
+      "name": "Hiconsy",
+      "position": "AI R&D Intern — Korean Educational ASR System & MLOps Pipeline",
+      "startDate": "2023-06-01",
+      "endDate": "Present",
+      "summary": "Built ASR models and end-to-end ML pipelines for production"
     }
   ],
   "projects": [
     {
-      "name": "Korean Educational ASR System",
-      "description": "Advanced speech recognition system fine-tuned for Korean educational content",
+      "name": "AI Subtitle Generation Model for Korean Educational Content",
+      "startDate": "2025-06-01",
+      "endDate": "Present",
+      "description": "End-to-end Korean ASR system development",
       "highlights": [
-        "Fine-tuned OpenAI Whisper Large-v3 with LoRA",
-        "275% improvement in segmentation precision",
-        "Custom Korean tokenizer with 55.6% efficiency improvement"
-      ],
-      "keywords": [
-        "PyTorch",
-        "Transformers", 
-        "PEFT",
-        "Korean NLP"
-      ],
-      "startDate": "2025-01-01",
-      "endDate": "2025-02-01",
-      "url": "",
-      "roles": [
-        "ML Engineer"
-      ],
-      "entity": "Research Project",
-      "type": "AI/ML"
+        "Fine-tuned Whisper Large-v3 with significant segmentation/readability improvement",
+        "Implemented LoRA, multi-GPU training, and RAG-based post-processing"
+      ]
     },
     {
-      "name": "Educational Q&A Analysis System", 
-      "description": "Interactive question classification system with GPT-4 fine-tuning",
-      "highlights": [
-        "8-category question classification using fine-tuned GPT-4",
-        "Real-time Streamlit dashboard for Korean text analysis",
-        "Automated sentiment analysis and categorization"
-      ],
-      "keywords": [
-        "OpenAI API",
-        "Streamlit",
-        "KoNLP",
-        "GPT-4"
-      ],
+      "name": "Educational Q&A Analysis System",
       "startDate": "2025-01-01",
       "endDate": "2025-01-31",
-      "url": "",
-      "roles": [
-        "NLP Engineer"
-      ],
-      "entity": "Research Project",
-      "type": "AI/NLP"
+      "description": "GPT-4 fine-tuning for Korean literature and math question classification (~80% acc.)",
+      "highlights": [
+        "Built real-time Streamlit dashboard for question analysis and categorization"
+      ]
+    },
+    {
+      "name": "Student Sentiment & Text Analysis Platform",
+      "startDate": "2024-05-01",
+      "endDate": "2024-05-31",
+      "description": "Korean text mining platform for student feedback",
+      "highlights": [
+        "Network visualization analysis of student feedback",
+        "Automated sentiment categorization for educational insights"
+      ]
+    },
+    {
+      "name": "Large-scale Educational Forum Crawling System",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-31",
+      "description": "Multi-platform web scraping with Korean morphological analysis",
+      "highlights": [
+        "Developed large-scale crawling system",
+        "Automated data processing and visualization pipelines"
+      ]
     }
   ],
+  "awards": [],
   "skills": [
     {
-      "name": "Programming Languages",
-      "level": "Advanced",
+      "name": "AI/ML & Data Science",
       "keywords": [
-        "Python",
-        "Java",
-        "C++",
-        "JavaScript",
-        "R",
-        "SQL"
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Natural Language Processing",
+        "Data Science"
       ]
     },
     {
-      "name": "Machine Learning & AI",
-      "level": "Advanced", 
+      "name": "Mathematical Foundations",
       "keywords": [
-        "PyTorch",
-        "Transformers",
-        "Hugging Face",
-        "scikit-learn",
-        "TensorFlow"
+        "Calculus",
+        "Linear Algebra I",
+        "Engineering Mathematics",
+        "Discrete Mathematics"
       ]
     },
     {
-      "name": "Natural Language Processing",
-      "level": "Advanced",
+      "name": "Computer Science Core",
       "keywords": [
-        "Korean NLP",
-        "OpenAI API",
-        "PEFT",
-        "LoRA",
-        "Fine-tuning"
+        "Data Structures",
+        "Computer Algorithms",
+        "Database Systems",
+        "Operating Systems",
+        "Computer Architecture"
       ]
     },
     {
-      "name": "Data Science",
-      "level": "Advanced",
+      "name": "Programming & Software Engineering",
       "keywords": [
-        "Pandas",
-        "NumPy", 
-        "Matplotlib",
-        "Plotly",
-        "Jupyter"
+        "C Programming",
+        "Java Programming",
+        "Object-Oriented Programming",
+        "System Software & Practice"
       ]
     }
   ],
   "languages": [
     {
       "language": "Korean",
-      "fluency": "Native speaker"
+      "fluency": "Native"
     },
     {
-      "language": "English", 
-      "fluency": "Advanced (TOEIC 950/990)"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Artificial Intelligence",
-      "keywords": [
-        "Natural Language Processing",
-        "Korean Language Technology",
-        "Educational AI"
-      ]
-    },
-    {
-      "name": "Research",
-      "keywords": [
-        "Machine Learning",
-        "Data Science",
-        "Korean NLP"
-      ]
+      "language": "English",
+      "fluency": "Advanced"
     }
   ]
 }
