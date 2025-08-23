@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of my AI, NLP, and data science projects focused on Korean language technology and educational applications.
+description: A collection of my projects.
 nav: true
 nav_order: 2
 display_categories: [ai, data]

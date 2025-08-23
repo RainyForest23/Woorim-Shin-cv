@@ -5,56 +5,85 @@
       value: Woorim Shin
     - name: Email
       value: wrim0923@gmail.com
-    - name: Phone
-      value: 010-2540-9018
     - name: Languages
-      value: Korean, English
+      value: Korean (Native), English (Advanced)
 
 - title: Education
   type: time_table
   contents:
     - title: Bachelor of Computer Science and Engineering
       institution: Ewha Womans University, Seoul, South Korea
-      year: 2020 - Present
+      year: 2023 - Present
       description:
-        - Undergraduate student currently pursuing degree in Computer Science and Engineering
+        - Undergraduate student in Computer Science and Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Experience information will be added here
-      institution: 
-      year: 
+    - title: Project Leader — Korean CSAT Private Education Service Planning & Development
+      institution: SDIJ Forest team
+      year: Apr 2023 - May 2025
       description:
-        - Please update with relevant experience
+        - Led planning and development for education service initiatives
+    - title: AI R&D Intern — Korean Educational ASR System & MLOps Pipeline
+      institution: Hiconsy
+      year: Jun 2023 - Present
+      description:
+        - Built ASR models and end-to-end ML pipelines for production
 
 - title: Projects
   type: time_table
   contents:
-    - title: Project information will be added here
-      year: 
-      description: Please update with relevant projects
+    - title: AI Subtitle Generation Model for Korean Educational Content
+      year: Jun 2025 - Current
+      description:
+        - Fine-tuned Whisper Large-v3; achieved major segmentation/readability gains
+        - Implemented LoRA, multi-GPU training, and RAG-based post-processing
+    - title: Educational Q&A Analysis System
+      year: Jan 2025
+      description:
+        - GPT-4 fine-tuning for literature/math question classification (~80% acc.)
+        - Built a real-time Streamlit dashboard for analysis
+    - title: Student Sentiment & Text Analysis Platform
+      year: May 2024
+      description:
+        - Korean text-mining for student feedback with network visualization
+        - Automated sentiment categorization for actionable insights
+    - title: Large-scale Educational Forum Crawling System
+      year: Sep 2023 - Dec 2023
+      description:
+        - Multi-platform crawling with Korean morphological analysis
+        - Automated processing and visualization pipelines
 
 - title: Honors and Awards
   type: time_table
-  contents:
-    - year: 
-      items:
-        - Award information will be added here
+  contents: []
 
-- title: Academic Interests
+- title: Relevant Coursework
   type: nested_list
   contents:
-    - title: Computer Science
+    - title: AI/ML & Data Science
       items:
-        - Software Engineering
+        - Machine Learning
+        - Reinforcement Learning
+        - Natural Language Processing
         - Data Science
-    - title: Programming
+    - title: Mathematical Foundations
       items:
-        - Python, Java, C++
-        - Web Development
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> To be added
+        - Calculus
+        - Linear Algebra I
+        - Engineering Mathematics
+        - Discrete Mathematics
+    - title: Computer Science Core
+      items:
+        - Data Structures
+        - Computer Algorithms
+        - Database Systems
+        - Operating Systems
+        - Computer Architecture
+    - title: Programming & Software Engineering
+      items:
+        - C Programming
+        - Java Programming
+        - Object-Oriented Programming
+        - System Software & Practice

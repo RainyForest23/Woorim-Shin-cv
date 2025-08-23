@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: My GitHub repositories showcasing projects in AI, NLP, data science, and Korean language technology.
+description: My GitHub repositories showcasing projects.
 nav: true
 nav_order: 4
 ---

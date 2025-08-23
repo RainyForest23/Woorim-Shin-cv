@@ -11,8 +11,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>wrim0923@gmail.com</p>
-    <p>010-2540-9018</p>
-    <p>Seoul, South Korea</p>
+    <p>Suwon, South Korea</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,8 +29,17 @@ latest_posts:
 
 I am Woorim Shin, an undergraduate student of Computer Science and Engineering at Ewha Womans University in Seoul, South Korea.
 
-I specialize in **Natural Language Processing** and **Korean Language Technology**, with hands-on experience in fine-tuning large language models, building automated speech recognition systems, and developing data analysis pipelines. My research interests focus on applying AI technologies to educational domains, particularly in Korean language processing.
+I'm passionate about **Natural Language Processing** and **Korean Language Technology**, currently diving deep into AI/ML through hands-on projects while building up the theoretical foundations. My journey has been driven by curiosity and a determination to tackle challenges until I find solutions – when I get fascinated by a field, I tend to dive deep and explore every aspect of it.
 
-I have worked on various projects ranging from **Korean educational ASR systems** using fine-tuned Whisper models to **automated text analysis platforms** for educational content. I'm passionate about leveraging machine learning and data science to solve real-world problems in education and language technology.
+Recently, I led the end-to-end development of an **AI subtitle generation model for Korean educational content**. Through this project, I gained comprehensive experience in:
+- **Model Development**: Fine-tuning Whisper models with LoRA and PEFT techniques
+- **Infrastructure**: Setting up distributed GPU training environments and monitoring with Tensorboard  
+- **NLP Engineering**: Building RAG systems, Korean embeddings, and custom tokenizers
+- **MLOps Pipeline**: Automating evaluation and review processes using Google Apps Script
+- **Project Management**: Streamlining review workflows and coordinating cross-functional teams
 
-Feel free to connect with me for research collaborations, internship opportunities, or discussions about AI and NLP projects.
+This experience sparked my deep interest in **MLOps**, **AI Engineering**, and the intersection of **natural language processing with real-world applications**. I'm particularly drawn to solving practical problems through AI technology, especially in educational and language processing domains.
+
+As an undergraduate still learning and growing, I'm eager to contribute to meaningful projects while continuing to expand my knowledge. I believe the best way to learn is by doing, and I'm always ready to take on new challenges that push me to grow both technically and personally.
+
+Feel free to connect with me for research collaborations, internship opportunities, or discussions about AI/NLP projects!
