@@ -11,6 +11,13 @@ related_publications: false
 > *This repository is kept private due to Hiconsy's confidentiality requirements.*  
 > *However, you can review the project results and documentation via my guidelines for subtitle reviewers [here](https://nonstop-pike-0e5.notion.site/25890cb97b1e809386a9d5e71f524df7?source=copy_link).*
 
+### Project Documentation
+<div class="col-sm mt-3 mt-md-0">
+    <a href="{{ site.baseurl }}/assets/pdf/250805 Comparison test - Comparison.pdf" target="_blank" class="btn btn-primary">
+        📄 Interim Report - Model Comparison Test (PDF)
+     </a>
+</div>
+
 ### Overview  
 Led the end-to-end development of a Korean Automatic Speech Recognition (ASR) system for educational content of 시대인재 at Hiconsy, diving deep into the entire ML pipeline from model fine-tuning to deployment. This project became my gateway into advanced AI engineering and sparked my passion for MLOps.
 
