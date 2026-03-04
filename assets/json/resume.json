@@ -64,69 +64,40 @@
       "startDate": "2025-01-01",
       "endDate": "2025-01-31",
       "description": "GPT-4 fine-tuning for Korean literature and math question classification (~80% acc.)",
-      "highlights": [
-        "Built real-time Streamlit dashboard for question analysis and categorization"
-      ]
+      "highlights": ["Built real-time Streamlit dashboard for question analysis and categorization"]
     },
     {
       "name": "Student Sentiment & Text Analysis Platform",
       "startDate": "2024-05-01",
       "endDate": "2024-05-31",
       "description": "Korean text mining platform for student feedback",
-      "highlights": [
-        "Network visualization analysis of student feedback",
-        "Automated sentiment categorization for educational insights"
-      ]
+      "highlights": ["Network visualization analysis of student feedback", "Automated sentiment categorization for educational insights"]
     },
     {
       "name": "Large-scale Educational Forum Crawling System",
       "startDate": "2023-09-01",
       "endDate": "2023-12-31",
       "description": "Multi-platform web scraping with Korean morphological analysis",
-      "highlights": [
-        "Developed large-scale crawling system",
-        "Automated data processing and visualization pipelines"
-      ]
+      "highlights": ["Developed large-scale crawling system", "Automated data processing and visualization pipelines"]
     }
   ],
   "awards": [],
   "skills": [
     {
       "name": "AI/ML & Data Science",
-      "keywords": [
-        "Machine Learning",
-        "Reinforcement Learning",
-        "Natural Language Processing",
-        "Data Science"
-      ]
+      "keywords": ["Machine Learning", "Reinforcement Learning", "Natural Language Processing", "Data Science"]
     },
     {
       "name": "Mathematical Foundations",
-      "keywords": [
-        "Calculus",
-        "Linear Algebra I",
-        "Engineering Mathematics",
-        "Discrete Mathematics"
-      ]
+      "keywords": ["Calculus", "Linear Algebra I", "Engineering Mathematics", "Discrete Mathematics"]
     },
     {
       "name": "Computer Science Core",
-      "keywords": [
-        "Data Structures",
-        "Computer Algorithms",
-        "Database Systems",
-        "Operating Systems",
-        "Computer Architecture"
-      ]
+      "keywords": ["Data Structures", "Computer Algorithms", "Database Systems", "Operating Systems", "Computer Architecture"]
     },
     {
       "name": "Programming & Software Engineering",
-      "keywords": [
-        "C Programming",
-        "Java Programming",
-        "Object-Oriented Programming",
-        "System Software & Practice"
-      ]
+      "keywords": ["C Programming", "Java Programming", "Object-Oriented Programming", "System Software & Practice"]
     }
   ],
   "languages": [

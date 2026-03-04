@@ -32,8 +32,9 @@ I am Woorim Shin, an undergraduate student of Computer Science and Engineering a
 I'm passionate about **Natural Language Processing** and **Korean Language Technology**, currently diving deep into AI/ML through hands-on projects while building up the theoretical foundations. My journey has been driven by curiosity and a determination to tackle challenges until I find solutions – when I get fascinated by a field, I tend to dive deep and explore every aspect of it.
 
 Recently, I led the end-to-end development of an **AI subtitle generation model for Korean educational content**. Through this project, I gained comprehensive experience in:
+
 - **Model Development**: Fine-tuning Whisper models with LoRA and PEFT techniques
-- **Infrastructure**: Setting up distributed GPU training environments and monitoring with Tensorboard  
+- **Infrastructure**: Setting up distributed GPU training environments and monitoring with Tensorboard
 - **NLP Engineering**: Building RAG systems, Korean embeddings, and custom tokenizers
 - **MLOps Pipeline**: Automating evaluation and review processes using Google Apps Script
 - **Project Management**: Streamlining review workflows and coordinating cross-functional teams
