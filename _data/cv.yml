@@ -2,96 +2,129 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Woorim Shin
+    - name: Email
+      value: wrim0923@gmail.com
     - name: Languages
-      value: English, German
+      value: Korean (Native), English (Advanced)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. Computer Science and Engineering
+      institution: Ewha Womans University, Seoul, Korea
+      year: 2023 - 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "GPA: 3.36/4.5 | Expected Graduation: Feb. 2027"
+        - title: Selected Coursework
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Operating Systems, Computer Architecture, Data Structures, Algorithms
+            - Computer Networks, Database, Machine Learning, Software Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI R&D Intern
+      institution: Hiconsy, Seoul, Korea
+      year: 2025 - 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Led AI/ML R&D function at a premier Korean CSAT education tech subsidiary, directing
+          research strategy and managing a cross-functional team to deliver AI solutions.
+        - Architected and deployed a production Korean lecture ASR system end-to-end, and
+          established rigorous QA workflows by building custom annotation tools for non-technical
+          QC staff.
+    - title: Project Leader
+      institution: SDIJ Forest Team, Seoul, Korea
+      year: 2023 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Initiated projects focusing on Korean CSAT education planning, expanding scope to
+          technical development as needed to effectively execute product strategies.
+        - Engineered a learning analytics automation pipeline (Selenium, Google APIs) replacing
+          manual workflows, slashing data collection time by 80%.
+        - Developed a large-scale NLP pipeline over educational forum data to automate student
+          sentiment analysis and proactive concern detection.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Korean CSAT Lecture ASR Customization System
+      year: 2025 - 2026
+      description:
+        - "PyTorch, HuggingFace, LoRA, DeepSpeed, Optuna | Independent Developer"
+        - Fine-tuned Whisper Large-v3 (1.55B) via LoRA on 6× RTX 4090 GPUs with DeepSpeed ZeRO-2.
+        - Diagnosed and resolved infinite hallucination bug native to Whisper LoRA fine-tuning,
+          reducing insertion errors by 20.7× (drafted as standalone research paper).
+        - Built serverless QA automation layer using Google Apps Script for automated SRT parsing
+          and role-based access control.
+    - title: Energy Cost Model for AI Workloads in Shared Resource Environments
+      year: 2026
+      description:
+        - "Python, Intel RAPL, nvidia-smi, Linux | Co-first Author (Team of 3)"
+        - Formulated a resource-aware energy decomposition/attribution model for shared environments,
+          addressing limitations of traditional cloud billing (e.g., AWS EC2).
+        - Demonstrated AI workloads (YOLO, ResNet, GPT-2) consume 4.7–11× more energy than
+          traditional workloads despite identical resource allocations.
+        - Co-first authored paper submitted to Mathematics, MDPI (SCIE), Feb. 2026.
+    - title: Educational Q&A Classification System for Korean CSAT
+      year: 2025
+      description:
+        - "OpenAI GPT-4, GPT-3.5 Turbo (fine-tuning), Streamlit | Project Lead (Team of 4)"
+        - Designed dual-subject cognitive NLP taxonomy bridging pedagogical theory with prompt
+          engineering to categorize complex student question workloads.
+        - Deployed production Streamlit dashboard classifying 720+ live questions using fine-tuned
+          GPT-3.5 Turbo and zero-shot GPT-4.
+    - title: Korean LLM Benchmark Evaluation
+      year: 2026
+      description:
+        - "Python, OpenAI API, Google Gemini API | Independent Evaluator"
+        - Engineered automated pipeline (LLM-as-a-judge scoring, regex extraction) to evaluate
+          6 production LLMs across 4 high-difficulty Korean NLP benchmarks.
+        - Delivered a corporate report on capability and cost-efficiency.
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - '<strong>Woorim Shin</strong><sup>†</sup>, Jiyun Kim, Siyeon Kang, Kyungwoon
+          Cho<sup>†</sup>, Hyokyung Bahn. "An Energy Cost Model for AI Workloads under Shared
+          Resource Environments." <em>Mathematics</em>, MDPI (SCIE) – Submitted, Feb 2026.
+          <sup>†</sup>Equal contribution, co-first author.'
+        - '<strong>Woorim Shin</strong>. "Eliminating Hallucinations in Whisper LoRA Fine-tuning:
+          A Case Study on Korean Lecture Transcription." Independent Research (Hiconsy AI R&D –
+          In preparation, 2026).'
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - "Ewha Startup Contest – 3rd Place Winner (Project: SchedAI, Web-based HR/interview
+          scheduling service)"
+        - "Google Developer Group on Campus (GDGoC Ewha) – General Member of AI (Sep. 2025 – Present)"
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: MLOps & AI Engineering
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Distributed training systems and large-scale model optimization
+        - Production ML pipelines and cloud infrastructure (AWS)
+    - title: Natural Language Processing
       items:
-        - Description 1.
-        - Description 2.
+        - Korean language technology and ASR systems
+        - LLM evaluation and benchmark design
+    - title: AI Systems Research
+      items:
+        - Energy efficiency and resource attribution of AI workloads
+        - Shared computing environments and cloud billing models
 
-- title: Other Interests
+- title: Technical Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Languages:</u> Python, Java, C"
+    - "<u>AI & Machine Learning:</u> PyTorch, Hugging Face, PEFT/LoRA, DeepSpeed, Whisper,
+      OpenAI/Gemini/Anthropic API"
+    - "<u>Data & Frameworks:</u> pandas, NumPy, scikit-learn, Streamlit, Selenium, Google Apps
+      Script"
+    - "<u>Systems & Tools:</u> Linux, Git"

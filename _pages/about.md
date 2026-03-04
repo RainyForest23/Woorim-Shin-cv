@@ -29,18 +29,21 @@ latest_posts:
 
 I am Woorim Shin, an undergraduate student of Computer Science and Engineering at Ewha Womans University in Seoul, South Korea.
 
-I'm passionate about **Natural Language Processing** and **Korean Language Technology**, currently diving deep into AI/ML through hands-on projects while building up the theoretical foundations. My journey has been driven by curiosity and a determination to tackle challenges until I find solutions – when I get fascinated by a field, I tend to dive deep and explore every aspect of it.
+I'm passionate about **MLOps**, **AI Systems**, and **Korean Language Technology**. My work sits at the intersection of large-scale model engineering and real-world deployment — I'm driven by a desire to _invent and simplify_, bridging pedagogical and business planning with scalable AI execution. My long-term goal is to become a **Cloud Data & Analytics Specialist at AWS ProServe**, architecting highly refined, cost-effective infrastructure that perfectly answers customer needs.
 
-Recently, I led the end-to-end development of an **AI subtitle generation model for Korean educational content**. Through this project, I gained comprehensive experience in:
+My recent work spans two tracks:
 
-- **Model Development**: Fine-tuning Whisper models with LoRA and PEFT techniques
-- **Infrastructure**: Setting up distributed GPU training environments and monitoring with Tensorboard
-- **NLP Engineering**: Building RAG systems, Korean embeddings, and custom tokenizers
-- **MLOps Pipeline**: Automating evaluation and review processes using Google Apps Script
-- **Project Management**: Streamlining review workflows and coordinating cross-functional teams
+**AI Engineering & NLP**
 
-This experience sparked my deep interest in **MLOps**, **AI Engineering**, and the intersection of **natural language processing with real-world applications**. I'm particularly drawn to solving practical problems through AI technology, especially in educational and language processing domains.
+- Architected and deployed a production **Korean lecture ASR system** at Hiconsy, fine-tuning Whisper Large-v3 (1.55B) via LoRA on 6× RTX 4090 GPUs with DeepSpeed ZeRO-2
+- Diagnosed and resolved a previously unknown **infinite hallucination bug** in Whisper LoRA fine-tuning, reducing insertion errors by **20.7×** — now being written up as a standalone research paper
+- Built a **serverless QA automation layer** using Google Apps Script for automated SRT parsing and role-based review access
 
-As an undergraduate still learning and growing, I'm eager to contribute to meaningful projects while continuing to expand my knowledge. I believe the best way to learn is by doing, and I'm always ready to take on new challenges that push me to grow both technically and personally.
+**AI Systems Research**
 
-Feel free to connect with me for research collaborations, internship opportunities, or discussions about AI/NLP projects!
+- Co-first authored a paper on **energy attribution for AI workloads in shared resource environments**, demonstrating that AI workloads consume **4.7–11× more energy** than traditional workloads under identical resource allocations — submitted to _Mathematics_, MDPI (SCIE), Feb. 2026
+- Engineered an automated **Korean LLM benchmark evaluation pipeline**, assessing 6 production LLMs across 4 high-difficulty Korean NLP benchmarks
+
+Beyond research, I won **3rd place at the Ewha Startup Contest** (Nov. 2025) with SchedAI, a web-based HR/interview scheduling service, and am an active member of **Google Developer Group on Campus (GDGoC) Ewha**.
+
+Feel free to connect with me for research collaborations, internship opportunities, or discussions about AI/NLP and cloud infrastructure!

@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Educational Q&A Analysis System
-description: Question classification system with GPT-4 fine-tuning
+title: Educational Q&A Classification System for Korean CSAT
+description: Dual-subject cognitive NLP taxonomy with GPT-3.5 Turbo fine-tuning and zero-shot GPT-4, classifying 720+ live student questions
 img: #
-importance: 2
+importance: 4
 category: ai
 related_publications: false
 ---
 
-## Educational Q&A Classification System about Korean & Math
+## Educational Q&A Classification System for Korean CSAT
+
+**Mar. 2025 – May 2025 | OpenAI GPT-4, GPT-3.5 Turbo (fine-tuning), Streamlit | Project Lead (Team of 4)**
 
 ### Project Documentation
 
@@ -27,39 +29,25 @@ related_publications: false
 
 ### Overview
 
-Led a comprehensive research and development project to solve the challenge of classifying Korean and Math questions from Sidaeinzae's TA app. This project taught me that successful AI implementation requires not just model training, but thoughtful criteria design that bridges the gap between messy real-world data and clean computational models.
+Led a team of 4 to design a dual-subject cognitive NLP taxonomy from scratch, bridging pedagogical theory with prompt engineering to categorize complex student question workloads from Sidaeinzae's TA app. The core challenge was transforming an inherently ambiguous classification problem (Korean literature) into a computationally tractable framework.
 
 ### What I Built
 
-- **8-Category Classification Framework**: Developed sophisticated question taxonomy (Q0-Q7) based on deep research into subject characteristics and student inquiry patterns
-- **Custom GPT-4 Fine-tuning Pipeline**: Implemented domain-specific model training for educational Q&A analysis
-- **Interactive Streamlit Dashboard**: Built real-time web application for live question analysis and visualization
-- **Korean NLP Processing Engine**: Integrated advanced Korean text processing with sentiment analysis capabilities
+- **Dual-Subject NLP Taxonomy**: Designed 8-category classification framework (Q0–Q7) grounded in deep research into Korean and Math subject characteristics and student inquiry patterns
+- **Fine-tuned GPT-3.5 Turbo**: Trained domain-specific model on custom-labeled educational Q&A dataset
+- **Production Streamlit Dashboard**: Deployed real-time web application classifying **720+ live questions**, accelerating the QA team's response routing
+- **Zero-shot GPT-4 Integration**: Combined fine-tuned and zero-shot approaches for optimal coverage across question types
 
-### Key Learnings & Results
+### Key Results
 
-Through leading this project, I gained invaluable experience in:
+- **720+ live questions** classified in production
+- **Solved previously abandoned** Korean literature classification task
+- **80% accuracy** on complex multi-subject question categorization
+- Directly drove business content strategy through real-time routing
 
-- **Problem Definition**: Transforming an "impossible" classification task (Korean literature) into a solvable framework
-- **Research Leadership**: Conducting deep domain research into subject characteristics, assessment patterns, and student behavior
-- **Data Strategy**: Developing labeling criteria that accurately model real-world complexity
-- **Model Development**: Fine-tuning GPT-4 with custom training datasets
-- **Full-stack Development**: Building production-ready web applications with Streamlit and Plotly
+### Technologies
 
-**Breakthrough Results:**
-
-- **Solved previously "impossible" Korean literature classification** that was in abandoned state
-- **Achieved 80% accuracy** on complex educational question categorization
-- **Processed hundreds of thousands** of question samples with systematic labeling approach
-- **Deployed production system** with real-time processing capabilities
-
-### Technologies Explored
-
-- **AI/ML Stack**: OpenAI GPT-4 fine-tuning
-- **Web Development**: Streamlit, real-time data processing
-- **Visualization**: Plotly interactive dashboards, statistical analysis
-- **Data Engineering**: Pandas, large-scale dataset processing
-
-### What This Project Taught Me
-
-This experience fundamentally changed my approach to NLP and data science. I learned that the most sophisticated models are only as good as the criteria used to define the problem. The challenge wasn't just technical implementation, but understanding the domain deeply enough to create meaningful categories that capture real-world complexity. This project reinforced my belief that successful AI solutions require both technical expertise and deep domain understanding – exactly the kind of interdisciplinary thinking I want to continue developing.
+**AI/ML**: OpenAI GPT-4 (zero-shot), GPT-3.5 Turbo (fine-tuning)
+**Web Development**: Streamlit, real-time data processing
+**Visualization**: Plotly interactive dashboards
+**Data Engineering**: Pandas, large-scale dataset labeling and processing
