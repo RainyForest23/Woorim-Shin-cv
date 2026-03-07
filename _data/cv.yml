@@ -94,6 +94,22 @@
           A Case Study on Korean Lecture Transcription." Independent Research (Hiconsy AI R&D –
           In preparation, 2026).'
 
+- title: Talks & Sessions
+  type: time_table
+  contents:
+    - title: github.io로 포트폴리오 관리하기
+      institution: Google Developer Group on Campus (GDGoC) Ewha, Seoul, Korea
+      year: 2025
+      description:
+        - Member session on building and maintaining a developer portfolio using GitHub Pages.
+        - Covered Jekyll setup, project page structuring, and continuous deployment workflow.
+    - title: Git & Github Guide for Forest
+      institution: SDIJ Forest Team — 강의분석팀, Seoul, Korea
+      year: 2026
+      description:
+        - Internal workshop on Git & GitHub collaborative workflows for LRS development.
+        - Designed for non-expert teammates; focused on practical, immediately applicable workflows.
+
 - title: Honors and Awards
   type: time_table
   contents:
