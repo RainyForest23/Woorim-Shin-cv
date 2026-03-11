@@ -80,6 +80,13 @@
         - Engineered automated pipeline (LLM-as-a-judge scoring, regex extraction) to evaluate
           6 production LLMs across 4 high-difficulty Korean NLP benchmarks.
         - Delivered a corporate report on capability and cost-efficiency.
+    - title: "ConvPEFT: Adapting Transformer PEFT to CNN-based Audio Classification"
+      year: 2025
+      description:
+        - "PyTorch, PEFT | Team of 3 — Ewha Womans University CSE"
+        - Proposed Conv-LoRA and Conv-Adapter by adapting Transformer PEFT methods to Conv2D layers.
+        - Conv-Adapter achieved 62.01% accuracy with only 34.9% trainable params, outperforming Full
+          Fine-Tuning; Conv-LoRA achieved best parameter efficiency (23.8%) while exceeding Full FT.
 
 - title: Publications
   type: time_table
