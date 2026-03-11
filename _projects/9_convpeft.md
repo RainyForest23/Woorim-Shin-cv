@@ -64,3 +64,4 @@ The motivation is practical: deploying high-accuracy audio classifiers (e.g., fo
 **Architecture**: CNN with Conv-LoRA / Conv-Adapter modules
 **Audio Processing**: MFCC spectrograms
 **Dataset**: UrbanSound8K
+**Design**: Figma — research poster (A1) designed entirely from scratch
