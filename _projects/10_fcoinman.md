@@ -22,14 +22,14 @@ fcoinman is the tool I wish I'd had running.
 
 ### What It Detects
 
-| Category | What it looks for |
-|---|---|
-| **Processes** | XMRig/P2PInfect cmdline signatures, high CPU since boot, execution from `/tmp` or `/dev/shm` |
-| **Network** | Connections to known mining pool IPs, stratum ports (3333/4444/5332), IRC ports (6667/6697) |
-| **Persistence** | Systemd services with miner keywords, recently modified crons, `/etc/ld.so.preload` rootkits |
-| **Files** | SHA-256 matching against known malware IOC database, ELF strip detection, recently modified binaries in `/usr/bin` |
-| **Accounts** | UID-0 backdoor accounts in `/etc/passwd`, `root@root` SSH authorized_keys |
-| **Logs** | Empty `auth.log` (evidence destruction), SSH brute force (>20 failures from same IP) |
+| Category        | What it looks for                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Processes**   | XMRig/P2PInfect cmdline signatures, high CPU since boot, execution from `/tmp` or `/dev/shm`                       |
+| **Network**     | Connections to known mining pool IPs, stratum ports (3333/4444/5332), IRC ports (6667/6697)                        |
+| **Persistence** | Systemd services with miner keywords, recently modified crons, `/etc/ld.so.preload` rootkits                       |
+| **Files**       | SHA-256 matching against known malware IOC database, ELF strip detection, recently modified binaries in `/usr/bin` |
+| **Accounts**    | UID-0 backdoor accounts in `/etc/passwd`, `root@root` SSH authorized_keys                                          |
+| **Logs**        | Empty `auth.log` (evidence destruction), SSH brute force (>20 failures from same IP)                               |
 
 ### Sample Output
 

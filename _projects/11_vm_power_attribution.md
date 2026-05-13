@@ -22,10 +22,10 @@ Cloud billing models charge by resource allocation (vCPU, memory) regardless of 
 
 ### Key Findings
 
-| Workload | Wall Power | Delta above idle |
-|---|---|---|
-| YOLO (AI) | 114.5W | +77W |
-| Node.js (Non-AI) | 42.0W | +4W |
+| Workload         | Wall Power | Delta above idle |
+| ---------------- | ---------- | ---------------- |
+| YOLO (AI)        | 114.5W     | +77W             |
+| Node.js (Non-AI) | 42.0W      | +4W              |
 
 - **2.7× total power difference** and **18.3× delta difference** under identical 2-core / 4GB allocations
 - Energy attribution error < 5% using hardware-level measurement stack
