@@ -129,23 +129,25 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: MLOps & AI Engineering
-      items:
-        - Distributed training systems and large-scale model optimization
-        - Production ML pipelines and cloud infrastructure (AWS)
     - title: Natural Language Processing
       items:
-        - Korean language technology and ASR systems
-        - LLM evaluation and benchmark design
-    - title: AI Systems Research
+        - Korean language technology, ASR, and speech processing
+        - LLM evaluation, benchmark design, and instruction tuning
+        - Educational NLP — sentiment analysis and Q&A understanding
+    - title: AI Systems & Systems Programming
       items:
+        - Distributed training and large-scale model optimization
         - Energy efficiency and resource attribution of AI workloads
-        - Shared computing environments and cloud billing models
+        - Systems security and low-level Linux internals
+    - title: ML Engineering
+      items:
+        - Parameter-efficient fine-tuning (PEFT/LoRA) and model adaptation
+        - End-to-end ML pipelines and production deployment
 
 - title: Technical Skills
   type: list
   contents:
-    - "<u>Languages:</u> Python, Java, C"
+    - "<u>Languages:</u> Python, Rust, Java, C"
     - "<u>AI & Machine Learning:</u> PyTorch, Hugging Face, PEFT/LoRA, DeepSpeed, Whisper,
       OpenAI/Gemini/Anthropic API"
     - "<u>Data & Frameworks:</u> pandas, NumPy, scikit-learn, Streamlit, Selenium, Google Apps
